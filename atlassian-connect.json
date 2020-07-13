@@ -1,5 +1,5 @@
 {
-  "key": "krsnaa-facets-overview",
+  "key": "krsnaa-facets",
   "name": "Facets Overview",
   "description": "Descriptive Statistics for a dataset",
   "baseUrl": "{{localBaseUrl}}",
