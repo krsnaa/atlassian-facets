@@ -1,6 +1,6 @@
 {
   "key": "krsnaa-facets",
-  "name": "Facets Overview",
+  "name": "Facets for Atlassian",
   "description": "Descriptive Statistics for a dataset",
   "baseUrl": "{{localBaseUrl}}",
   "authentication": {
