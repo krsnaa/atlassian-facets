@@ -1,0 +1,41 @@
+{
+  "key": "krsnaa-facets-overview",
+  "name": "Facets Overview",
+  "description": "Descriptive Statistics for a dataset",
+  "baseUrl": "{{localBaseUrl}}",
+  "authentication": {
+    "type": "jwt"
+  },
+  "lifecycle": {
+    "installed": "/installed"
+  },
+  "scopes": ["READ"],
+  "modules": {
+    "dynamicContentMacros": [
+      {
+        "key": "krsnaa-facets-overview",
+        "url": "/facets-overview",
+        "name": {
+          "value": "Facets Overview Macro"
+        },
+        "description": {
+          "value": "Shows descriptive statistics for the dataset"
+        },
+        "outputType": "block",
+        "bodyType": "none"
+      },
+      {
+        "key": "krsnaa-facets-dive",
+        "url": "/facets-dive",
+        "name": {
+          "value": "Facets Dive Macro"
+        },
+        "description": {
+          "value": "Enables detailed deep-dive exploratory analysis for a dataset"
+        },
+        "outputType": "block",
+        "bodyType": "none"
+      }
+    ]
+  }
+}
