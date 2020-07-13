@@ -64,13 +64,9 @@
       // Don't use memory storage for production, otherwise
       // data in the storage will go away when the app server restarts.
       // Here, we use PostgreSQL:
-      // "type": "postgres",
+      "type": "postgres",
       // PaaS like Heroku will provide DB connection URL through environment variable.
-      // "url": "$DATABASE_URL"
-      "adapter": "sequelize",
-      "dialect": "sqlite3",
-      "logging": false,
-      "type": "memory"
+      "url": "$DATABASE_URL"
     },
     // The app can only be registered by the products on these domains:
     "whitelist": ["*.jira-dev.com", "*.atlassian.net", "*.atlassian.com", "*.jira.com"]
