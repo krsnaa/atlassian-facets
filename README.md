@@ -1,5 +1,7 @@
 # Atlassian Facets Demonstration
 
+Access the app at: https://atlassian-facets.herokuapp.com/
+
 For this demonstration, we use the Census Income Data Set from the UCI Machine Learning Repository as it is a decently sized dataset allowing for exploration across facets - http://archive.ics.uci.edu/ml/datasets/Census+Income.
 
 However, it is trivial to run this tool on the dataset present in tables on a Confluence / Jira page.
